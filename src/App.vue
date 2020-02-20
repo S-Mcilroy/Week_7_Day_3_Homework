@@ -38,3 +38,21 @@ export default {
 
 <style lang="css" scoped>
 </style>
+
+<!-- <input id="searchbar" onkeyup="search_country()" type="text"
+name="search" placeholder="Search Countries..">  -->
+
+<!-- function search_country() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let countriesList = this.countries;
+
+    for (i = 0; i < countriesList.length; i++) {
+        if (!countriesList[i].innerHTML.toLowerCase().includes(input)) {
+            countriesList[i].style.display="none";
+        }
+        else {
+            countriesList[i].style.display="list-item";
+        }
+    }
+}  -->
